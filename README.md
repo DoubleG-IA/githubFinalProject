@@ -1,7 +1,12 @@
-### A calculator that calculates simple interest given principal, annual rate of interest and time period in years.
+### simple Python script that calculates the Body Mass Index (BMI) given a person’s weight and height
 #### Input:
-   - p, principal amount
-   - t, time period in years
-   - r, annual rate of interest
+ def calculate_bmi(weight, height):
+    # Calculate BMI
+    bmi = weight / (height ** 2)
+    return bmi
 #### Output
-   - simple interest = p*t*r
+  weight = float(input("Enter your weight in kilograms: "))
+height = float(input("Enter your height in meters: "))
+
+bmi = calculate_bmi(weight, height)
+print(f"Your Body Mass Index (BMI) is: {bmi}")
