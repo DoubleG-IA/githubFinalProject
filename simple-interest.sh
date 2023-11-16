@@ -1,7 +1,6 @@
 #!/bin/bash
 # This script calculates Body Mass Index (BMI) given weight and height.
 # Do not use this in production. Sample purpose only.
-# Author: Gonzalo Godoy
 # Input:
 # weight, weight in kilograms
 # height, height in meters
